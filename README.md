@@ -1,25 +1,45 @@
-# Rethinkhost
+RethinkHost.com
+===============
 
-This README outlines the details of collaborating on this Ember application.
+The webapp client for [RethinkHost](http://www.rethinkhost.com).
 
-## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+Installation
+------------
 
-## Running
+```bash
+$ git clone git@github.com:rethinkhost/rethinkhost.com.git
+$ cd rethinkhost.com
+$ npm install
+```
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+This will also install the Bower dependencies.
 
-## Running Tests
 
-* `ember test`
-* `ember test --server`
+Usage
+-----
 
-## Building
+```bash
+$ ember s
+```
 
-* `ember build`
+Visit your application at [http://localhost:4200](http://localhost:4200).
 
-For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
+#### Running Tests
+
+```bash
+$ ember test
+$ ember test --server
+```
+
+
+Contributing
+------------
+
+1. Check the open issues or open a new issue to start a discussion around
+   your feature idea or the bug you found
+2. Fork the repository, make your changes, and add yourself to [Authors.md][]
+3. Send a pull request
+
+
+[Authors.md]: AUTHORS.md
